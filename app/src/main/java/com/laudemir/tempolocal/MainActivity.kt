@@ -13,7 +13,7 @@ import java.util.Date
 import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
-
+    // declaração das variáveis
     private lateinit var dateTimeText: TextView
     private val handler = Handler(Looper.getMainLooper())
     private lateinit var timeRunnable: Runnable
@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        // inicialização das variáveis
         dateTimeText = findViewById(R.id.dateTimeText)
 
         timeRunnable = object : Runnable {
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+    // remove a atualização do tempo quando a atividade é destruída
     override fun onDestroy() {
         super.onDestroy()
         handler.removeCallbacks(timeRunnable)
