@@ -12,7 +12,7 @@
         android:id="@+id/dateTimeText"
         android:layout_width="0dp"
         android:layout_height="100dp"
-        android:background="#FF0000"
+        android:background="#35CCFF"
         android:gravity="center"
         android:text="@string/carregando"
         android:textColor="#FFFFFF"
@@ -21,5 +21,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="271dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateTimeText"
+        app:srcCompat="@drawable/pinguin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
