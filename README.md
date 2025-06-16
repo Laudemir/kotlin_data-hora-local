@@ -1,22 +1,28 @@
-# kotlin_data-hora-local
+# 📅 Kotlin Data e Hora Local
 
-Aplicativo Android desenvolvido em **Kotlin** exibir a data e hora em tempo real na tela inicial.
+Projeto Android desenvolvido em **Kotlin** que exibe a **data e hora local em tempo real** em um `TextView` com layout personalizado.
 
-## 📱 Funcionalidades
+---
 
-- 📍 Exemplo de visualização da data e horario local para uso em outros projetos
-- 🕒 Exibição da data e hora em tempo real no topo da tela
+## ✨ Funcionalidade
 
-## 🛠 Tecnologias utilizadas
-_ **Android Studio**<br>
-_ **Kotlin**
+- 🕒 Exibe a **data e hora atual** com atualização automática a cada segundo.
+- 🎨 Layout com fundo **azul** e texto **branco**, estilizado com `TextView`.
+- ✅ Compatível com versões recentes do Android.
+
+---
+
+## 📷 Captura de Tela
+
+> ![tela](https://github.com/user-attachments/assets/757746df-06e7-4e17-8f3b-106ecb47f90f)
 
 
-## 📸 Captura de tela
-![Captura de tela de 2025-06-16 11-13-45](https://github.com/user-attachments/assets/1b760199-b1d6-419b-94fe-6e62b985f2f5)
- 
+---
 
-## Clone o repositório:
+## 🚀 Como executar o projeto
+
+1. Clone este repositório:
 
 ```bash
 git clone https://github.com/Laudemir/kotlin_data-hora-local.git
+
