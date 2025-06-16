@@ -7,7 +7,7 @@ Projeto Android desenvolvido em **Kotlin** que exibe a **data e hora local em te
 ## ✨ Funcionalidade
 
 - 🕒 Exibe a **data e hora atual** com atualização automática a cada segundo.
-- 🎨 Layout com fundo **laranja** e texto **branco**, estilizado com `TextView`.
+- 🎨 Layout com fundo **azul** e texto **branco**, estilizado com `TextView`.
 - ✅ Compatível com versões recentes do Android.
 
 ---
